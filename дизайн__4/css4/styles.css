@@ -1,0 +1,308 @@
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.bc-firstArea{
+    background-color: #F1F6FC;
+    padding: 24px;
+}
+
+.font-mon{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p-30and50{
+    padding: 15px 0 25px 0;
+}
+
+.firstButton{
+    text-decoration: none;
+    color: white; 
+    background-color: #207FF1;
+    padding: 3px 14px;
+    border-radius: 20px;
+    width: 269px;
+    height: 55px;
+    align-items: center;
+    display: flex   ;
+}
+
+.wrapperSecondArea{
+    width: 100%;
+    max-width: 700px;
+}
+.dflex{
+    display: flex;
+}
+
+.p-0{
+    padding: 90px auto;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.bc-firstButton{
+    border: 2px solid #207FF1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 11px 18px;
+}
+
+
+.button-2{
+    background-color: #207FF1;
+    border-radius: 10px;
+    padding: 11px 78px;
+    width: 299px;
+    color: white;
+}
+
+.firstButtonContent{
+    width: 215px;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.gap-37{
+    gap: 37px;
+}
+
+.gap-30{
+    gap: 30px;
+}
+
+.gap-40{
+    gap: 40px;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.opacity{
+    opacity: 0.8;
+}
+
+.fd-column{
+    flex-direction: column;
+}
+
+.m-bottom116and120{
+    margin: 116px 0 120px 0;
+}
+
+.f-size40{
+    font-size: 35px;
+}
+
+.bc-areaBlue{
+    background-color: #F1F6FC;
+}
+
+.element{
+    width: 125px;
+    height: 3px;
+    background: rgb(78, 78, 214);
+}
+
+.items{
+    justify-content: space-between;
+}
+
+.gap-30{
+    gap: 30px;
+}
+
+.blue-text{
+    color: rgb(78, 78, 214);
+    font-size: 40px;
+
+}
+
+.item{
+    background: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+
+.text2{
+    margin:28px 0 0 0 ;
+}
+
+.Block{
+    background-color: white;
+    border-radius: 10px;
+    padding: 11px 18px;
+    position: relative;
+}
+
+.Block:hover{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.Block:hover b{
+    color: #207FF1;
+    font-size: 22px;
+}
+
+.p-192{
+    padding: auto auto 192px auto;
+}
+
+.button3{
+    background-color: #F1F6FC;
+    border-radius: 20px;
+    padding: 6px 9px;
+    color: #207FF1;
+}
+
+.Block:hover .button3{
+    color: white;
+    background-color: #207FF1;
+}
+
+.pb-40{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.p-30{
+    padding: 5px 0;
+}
+
+.margin-20and43{
+    margin: 20px 0 43px 0;
+}
+
+.fs-23{
+    font-size: 20px;
+}
+
+.pForContentOfBlocks{
+    padding: 15px 8px;
+}
+.p-103{
+    padding: auto auto 103px auto;
+}
+
+.m-0aaa{
+    margin: 0 auto auto auto;
+}
+
+.m-0{
+    margin: 0;
+}
+
+.bc-ImageBlue{
+    background-color: #F1F6FC;
+}
+
+.bc-white{
+    background-color: white;
+}
+
+.p-18and28{
+    padding: 12px 18px;
+}
+
+.footerButton{
+    background-color: #207FF1;
+    border-radius: 20px;
+}
+
+.whiteFont{
+    color: white;
+}
+
+.w-55{
+    width: 170px;
+}
+
+.gap-50{
+    gap: 50px;
+}
+
+.p-117{
+    padding-top: 117px;
+}
+
+.pb-123{
+    padding-bottom: 123px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.bc_image{
+    background: url(../img4/футаж_2.png) no-repeat 100%;
+    margin: 0;
+}
+
+.wrapper-2{
+    width: 100%;
+    max-width: 900px;
+    padding: 150px 150px;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.wrapper-box{
+    width: 394px;
+    color: white;
+}
+
+.wrapper-box h3{
+    font-size: 38px;
+}
+
+.wrapper-box p{
+    padding: 27px 0 100px 0;
+    font-size: 18px;
+}
+
+.wrapper-box input{
+    padding: 16px 20px 17px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.wrapper-box button{
+    background-color: #207FF1;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    padding: 18px  0 ;
+    margin-top: 10px;
+}
+
+/* .bc_image1{
+    background: url(../img4/футаж_1.png) no-repeat 100%;
+} */
+
+.lastButton{
+    text-decoration: none;
+    color: white; 
+    background-color: #207FF1;
+    padding: 3px 14px;
+    border-radius: 20px;
+    width: 159px;
+    height: 55px;
+    align-items: center;
+    display: flex;
+}

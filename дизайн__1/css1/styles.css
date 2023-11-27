@@ -1,0 +1,46 @@
+.cian {
+    color: rgb(22, 165, 98);
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.p-width {
+    width: 50%;
+}
+
+.gap{
+    gap: 10px;
+}
+
+.five-items{
+    justify-content: space-between;
+}
+
+.wrapper-2{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 20px 20px;
+    margin: 0 auto;
+}
+
+
+.wrapper-3{
+    width: 100%;
+    max-width: 1170px;
+    padding: 0px 20px 20px;
+    margin: 0 auto;
+}
+
+.box:hover{
+    color: rgb(37, 196, 196);
+    transform: translateY(-10px);
+    font-size: 20px;
+}

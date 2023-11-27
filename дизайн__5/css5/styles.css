@@ -1,0 +1,679 @@
+body{
+    margin: 0;
+}
+
+.p-1{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.wrapper-2{
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.wrapper-box{
+    width: 100%;
+    max-width: 500px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.bcDarkBlue{
+    background-color: #0A2640;
+    padding: 96px 0;
+}
+
+.wid-100{
+    width: 100%;
+}
+
+
+.firstSectionImg{
+    background-color: #0A2640;
+    position: relative;
+}
+
+.firstSectionImgElement{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2; 
+}
+
+.padAndMarForFS{
+    padding: 56px 0 64px 0;
+    z-index: 10;
+    position: relative;
+}
+
+.firstSection-leftSide{
+    justify-content: center;
+}
+
+.firstSection-rightSide{
+    gap: 25.5px;
+}
+
+
+.img-about{
+    position: relative;
+}
+
+.img-about__small{
+    position: absolute;
+    right: -10px;
+    bottom: -135px;
+}
+
+.img-about2{
+    position: relative;
+}
+
+.img-about__small2{
+    position: absolute;
+    right: 40px;
+    bottom: -160px;
+}
+
+/* .TSFirstImg{
+    background-image: url(../img5/TSImg_1.png);
+    position: relative;
+    z-index: -2;
+}
+
+.TSSecondImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} */
+
+.buttonOfBlocks{
+    color: #0A2640;
+    background-color: white;
+    display: flex;
+    width: 150px;
+    height: 45px;
+    border-bottom: 1.5px solid #0A2640;
+}
+
+.ContentButOfBlocks{
+    text-decoration: none;
+    color: #0A2640;
+}
+
+.firstButton{
+    padding: 8px 40px;
+    text-decoration: none;
+    color:#0A2640;
+    border-radius: 24px;
+    background-color: #65E4A3;    
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.secondButton{
+    padding: 16px 56px;
+    text-decoration: none;
+    color:#0A2640;
+    border-radius: 56px;
+    background-color: #65E4A3;    
+    font-weight: 700;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.secondButton:hover{
+     background-color: #0A2640;
+     border: 2px solid white;
+     color: white;
+}
+
+.thirdBurron{
+    padding: 16px 56px;
+    text-decoration: none;
+    color:white;
+    border-radius: 56px;
+    background-color: #0A2640;    
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid white;
+    transition: background-color 0.3s;
+}
+
+.thirdBurron:hover{
+    background-color: #65E4A3;
+    color: #0A2640;
+    border-color: #65E4A3;
+}
+
+.buttonStartNow{
+    padding: 8px 28px;
+    text-decoration: none;
+    color:white;
+    border-radius: 56px;
+    background-color: #0A2640;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.buttonStartNow:hover{
+    background-color: white;
+    color: #0A2640;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.08);
+    border: 2px solid #0A2640;
+}
+
+.SecondListButton{
+    background-color: #0A2640;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 53px 16px 20px;
+    transition: background-color 0.3s; 
+}
+
+.SecondListButton:hover{
+    background-color: white;
+    color: #0A2640;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.08);
+    border: 1px solid #0A2640;
+}
+
+.SecondListButton:hover .leafChange path{
+    stroke: #0A2640;
+}
+
+.SecondListButton:hover .eye path{
+    stroke: #0A2640;
+}
+
+.SecondListButton:hover .sun path{
+    stroke: #0A2640;
+}
+
+
+.loadMoreButton{
+    background-color: white;
+    color: #0A2640;
+    border: 2px solid #0A2640; 
+    padding: 16px 56px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 56px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.loadMoreButton:hover{
+    background-color: #0A2640;
+    border: 2px solid #0A2640;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.08);
+    color: white;
+}
+
+.footerLilButton{
+    padding: 1px 14px;
+    background-color: #65E4A3;
+    color: #0A2640;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 120px;
+    align-items: center;
+    display: flex;
+}
+
+.fifthSBox{
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.SevenSectionBlocks{
+    width: 100%;
+    max-width: 300px;
+}
+
+.FifthSectionBlocks{
+    width: 100%;
+    max-width: 350px;
+}
+
+.SixthSection{
+    gap: 56px;
+    padding: 124px 0 158px 0;
+}
+
+.SixthSection-lowerAreaSetts{
+    justify-content: space-between;
+}
+
+.SixthSectionLowerArea-title{
+    font-weight: 400;
+    font-size: 36px;
+    width: 500px;
+}
+
+.SixthSectionLowerArea-list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 700px;
+    width: 100%;
+    width: 500px;
+}
+
+.SixthSection-listPoints{
+    padding: 0 1px 17px 0;
+    border-bottom: 1px solid #C4C4C4;
+    display: flex;
+    font-size: 16px;
+    gap: 84px;
+}
+
+.SixthSectionListPoints-font{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.SixthSectionListBlackArrow{
+    width: 28px;
+    height: 28px;
+}
+
+.eighthSection-mar{
+    margin: 124px auto auto auto;
+}
+
+.eighthSectionImg{
+    background-color: #0A2640;
+    border-radius: 12px;
+    position: relative;
+}
+
+.eighthSectionImgElement{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.eighthSection_ContentSetts{
+    padding: 72px 0;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    gap: 48px;
+    /* position: absolute;
+    z-index: 2; */
+    position: relative;
+    z-index: 5;
+}
+
+.eighthSection_Title{
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+}
+
+.eighthSection-twoButtonSetts{
+    gap: 24px;
+}
+
+.eighthSection_WhiteButton{
+    width: 370px;
+    height: 56px;
+    background-color: white;
+    color: black;
+    border-radius: 240px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+    padding: 0 158px 0 32px;
+    align-items: center;
+    display: flex;
+}
+
+.eighthSection_GreenButton{
+    width: 210px;
+    height: 60px;
+    background-color: #65E4A3;
+    color: #0A2640;
+    border-radius: 56px;
+    font-size: 20px;
+    font-weight: 700;
+    /* padding: 16px 56px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.profFirstTxt{
+    color: #0A2640;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: start;
+}
+
+.profSecondTxt{
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: start;
+}
+
+.categoryFont{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0A2640;
+}
+
+.infFont{
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.dateFont{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777; 
+}
+
+.nameFont{
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.companyNameBlackFont{
+    font-weight: 700;
+    font-size: 43px;
+    color: #0A2640;
+}
+
+.footerCategoriesFont{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.BBottom{
+    border-bottom: 1.5px solid #C4C4C4;
+}
+
+.wid-300{
+    width: 300px;
+}
+
+.w-500{
+    width: 500px;
+}
+
+.wid-493{
+    width: 493px;
+}
+
+.wid480andheig230{
+    width: 480px;
+    height: 230px;
+}
+
+.wid190andheig165{
+    width: 190px;
+    height: 165px;
+}
+
+.wid260andheig165{
+    width: 260px;
+    height: 165px;
+}
+
+.pad-96{
+    padding: 96px auto;
+}
+
+.pad16{
+    padding: 16px 0;
+}
+
+.pad124and158{
+    padding: 124px 0 158px 0;
+}
+
+.mTop66{
+    margin-top: 66px;
+}
+
+.mTop-28{
+    margin-top: 28px;
+}
+
+.mTop-84{
+    margin-top: 84px;
+}
+
+.mar-26{
+    margin-right: 26px;
+}
+
+.mar-120and226{
+    margin: 120px auto 226px auto;
+}
+
+.mar-185and220{
+    margin: 185px auto 220px auto;
+}
+
+.mar-184and117{
+    margin: 184px auto 117px auto;
+}
+
+.mar24and20{
+    margin: 24px auto 20px auto;
+}
+
+.mar-40and64{
+    margin: 40px auto 64px auto;
+}
+
+.mar-16and40{
+    margin: 16px 0 40px 0; 
+}
+
+.mar-40and56{
+    margin: 40px 0 56px 0;
+}
+
+.mar24and28{
+    margin: 24px 0 28px 0;
+}
+
+.mar64and56{
+    margin: 64px auto 56px auto;
+}
+
+.mar12and78{
+    margin: 12px auto 78px auto;
+}
+
+.mar82and185{
+    margin: 82px auto 185px auto;
+}
+
+/* .pad-16and53and20{
+    padding: 16px 53px 16px 20px;
+} */
+
+.dflex{
+    display: flex;
+}
+
+.fd-column{
+    flex-direction: column;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.ta-start{
+    text-align: start;
+}
+
+.logoText{
+    font-size: 43px;
+    font-weight: 700; 
+    color: white;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.c-white{
+    color: white;
+}
+
+.gap-5{
+    gap: 5px;
+}
+
+.gap-11{
+    gap: 11px;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.gap-22{
+    gap: 22px;
+}
+
+.gap-24{
+    gap: 24px;
+}
+
+.gap-27{
+    gap: 27px;
+}
+
+.gap-32{
+    gap: 32px;
+}
+
+.gap-30{
+    gap: 30px;
+}
+
+.gap-28{
+    gap: 28px;
+}
+
+.gap-40{
+    gap: 40px;
+}
+
+.gap-50{
+    gap: 50px;
+}
+
+.gap-56{
+    gap: 56px;
+}
+
+.gap-64{
+    gap: 64px;
+}
+
+.gap-72{
+    gap: 72px;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-12{
+    gap: 12px;
+}
+
+.gap-4{
+    gap: 4px;
+}
+
+.gap-70{
+    gap: 70px;
+}
+
+.gap-100{
+    gap: 80px;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.ta-center{
+    text-align: center;
+}
+
+.bigTextFS{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.opacity{
+    opacity: 0.8;
+}
+
+.fs20andfw400{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fs42andfw400{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-22{
+    font-size: 18px;
+}
+
+.fs-24{
+    font-size: 24px;
+}
+
+.fs-36{
+    font-size: 36px;
+}
+
+.fs-48{
+    font-size: 48px;
+}
+
+.fs-78{
+    font-size: 78px;
+}
+

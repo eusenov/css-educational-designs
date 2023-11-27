@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.blue-text{
+    color: rgb(78, 78, 214);
+    font-size: 40px;
+
+}
+
+.item{
+    background: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+
+.items{
+    justify-content: space-between;
+}
+
+.text{
+    opacity: 0.8;
+}
+
+.text2{
+    margin:28px 0 0 0 ;
+}
+
+.p-1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gap{
+    gap: 30px;
+}
+
+.element{
+    width: 125px;
+    height: 3px;
+    left: auto;
+    top: auto;
+    background: rgb(78, 78, 214);
+}
+
+.container-element{
+    width: 100%;
+    max-width: 100px;
+    margin: 0 0 0 230px;
+}

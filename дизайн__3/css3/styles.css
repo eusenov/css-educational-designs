@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 20px auto;
+
+}
+
+.container-bottomSpace{
+    width: 100%;
+    margin: auto
+}
+
+.dflex{
+    display: flex;
+}
+
+.yellow-text{
+    color: rgb(223, 134, 0);
+    font-size: 40px;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.right-toptxt{
+    margin-top: 150px;
+}
+
+.bl-fontsize{
+    font-size: 40px;
+}
+
+.rocket{
+    font-size: 30px;
+}
+
+.between-2{
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container-pastr{
+    margin: 10px 20px 0 0;
+}
+
+/* .container-main{
+    margin: 50px 50px auto 200px;
+} */
+
+.map-pstn{
+    margin-left: 5px;
+}
+
+.container-mappart{
+    flex-direction: space-between;
+    gap: 100px;
+}
+
+.bc{
+    background-color: #FFAB00;
+    padding: 5px 0;
+}
+
+.block{
+    background: white;
+    width: 90px;
+    height: 55px;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.button{
+    margin: auto 100px auto 5px;
+}
+
+.fix-items{
+    margin: 10px 5px;
+}
+
+.text-bottom{
+    color: white;
+}
+
+.button-2{
+    margin: auto 100px auto 20px;
+}
+
+.p-1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.email-phone{
+    width: 350px;
+}
+
+.email{
+    width: 100%;
+}
+
+.phone{
+    width: 100%;
+}
+
+
+
