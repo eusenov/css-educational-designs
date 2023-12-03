@@ -1,0 +1,317 @@
+.main-wrapper{
+    margin: 0 30px 0 70px;
+}
+
+.wrapper1170{
+    width: 100%;
+    max-width: 1170px;
+}
+
+
+.wrapper1185{
+    width: 100%;
+    max-width: 1185px;
+}
+
+.wrapper1605{
+    width: 100%;
+    max-width: 1605px;
+}
+
+.wrapper1581{
+    width: 100%;
+    max-width: 1581px;
+}
+
+.firstScreen-Content{
+    padding: 31px 31px 92px 31px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstScreen-upContent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+
+.logo{
+}
+
+.upContent-right{
+    display: flex;
+    gap: 64px;
+    margin-right: 18px;
+}
+
+.textPlus{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.oneOfTextPlus{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.oneOfTextPlus svg path{
+    stroke: black;
+}
+
+.profileAndLangs{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.profileAndLangs svg rect{
+    stroke: black;
+}
+
+.profileAndLangs svg circle{
+    stroke: black;
+}
+
+.profileAndLangs svg path{
+    stroke: black;
+}
+
+.blackLineOut{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.blackLine-header{
+    height: 1px;
+    background-color: black;
+    width: 1570px;
+}
+
+.blackLine-main{
+    height: 2px;
+    background-color: black;
+}
+
+.thirdScreen-content{
+}
+
+.bigTitle{
+    font-weight: 500;
+    font-size: 72px;
+    margin: 0;
+}
+
+.thirdScreen-content .texts{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin-top: 32px;
+    margin-bottom: 10.5px;
+}
+
+.thirdScreen-content .texts a{
+    color: black;
+}
+
+.thirdScreen-content .texts .special{
+    color: black;
+    text-decoration: none;
+}
+
+.thirdScreen-content .main-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.thirdScreen-upContent{
+    display: flex;
+    gap: 36px;
+}
+
+.thirdScreen-upContent .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdScreen-upContent span{
+    font-weight: 500;
+    font-size: 56px;
+}
+
+.thirdScreen-upContent p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.thirdScreen-upContent .midTxt{
+    margin: 36px auto 24px auto;
+}
+
+.thirdScreen-midContent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 67px 0;
+
+}
+
+.thirdScreen-midContent .up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thirdScreen-midContent .down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oneof{
+    display: flex;
+    gap: 24px;
+    width: 382px;
+}
+
+.oneof img{
+    width: 62px;
+    height: 62px;
+}
+
+.oneof span{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.thirdScreen-content h3{
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.thirdScreen-bottom {
+    margin-right: auto;
+}
+
+.thirdScreen-bottom a{
+    display: flex;
+    gap: 7px;
+    padding: 10px 30px;
+    border-radius: 5.267px;
+    background: #717FFF;
+    text-decoration: none;
+    color: white;
+    width: 170px;
+}
+
+.fourthScreen .blackLine-main{
+    width: 1620px;
+}
+
+.fifthScreen .content h2{
+    line-height: 100%;
+}
+
+.fifthScreen .content .blackLine-main{
+    width: 1387px;
+}
+
+.fifthScreen .content .main-content{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 78px;
+}
+
+.fifthScreen .content .main-content .inContent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.fifthScreen .content .main-content .forms{
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    justify-content: space-between;
+}
+
+.fifthScreen .content .main-content .forms .up{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    gap: 66px;
+}
+
+.fifthScreen .content .main-content .forms .up .oneof{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fifthScreen .content .main-content .forms .up .oneof input{
+    padding: 17px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black, #161616);
+    border-radius: 6px;
+    border: 1px solid var(--black, #161616);
+}
+
+.fifthScreen .content .main-content .forms .down{
+    display: flex;
+    flex-direction: column;
+}
+
+.fifthScreen .content .main-content .forms .down textarea{
+    padding: 17px 16px;
+    resize: none;
+    border-radius: 6px;
+    border: 1px solid var(--black, #161616);
+}
+
+.fifthScreen .content .main-content .check-and-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifthScreen .content .main-content .check{
+
+}
+
+.fifthScreen .content .main-content .button{
+    width: 382px;
+}
+
+.fifthScreen .content .main-content .button a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 32px; 
+    border-radius: 6px;
+    background: #717FFF;    
+    justify-content: center;
+}
+
+.sixthScreen{
+
+}
+
+.sixthScreen .content{
+    
+}
+
+.sixthScreen .blackLine-main{
+    width: 1387px;
+}
